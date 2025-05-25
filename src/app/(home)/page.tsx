@@ -1,14 +1,10 @@
-import Hero from "../components/Hero";
+import Hero from "../../components/Hero";
+import RoomList from "./components/RoomList";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div>
-      <Hero
-        title="Welcome to Ramante Homes"
-        subtitle="Luxury homestays in the heart of Dehradun"
-        ctaText="Book Now"
-        ctaLink="./apartments/apartments"
-      />
+      <Hero />
       <section className="container mx-auto py-8 sm:py-12 px-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-6">
           Discover Serenity
@@ -19,6 +15,7 @@ const Home: React.FC = () => {
           cuisine, and premium amenities.
         </p>
       </section>
+      <RoomList />
     </div>
   );
 };
