@@ -3,10 +3,6 @@ import "../app/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import { Jost } from "@next/font/google";
-
-const jost = Jost({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: {
     default: "Ramante Homes | Luxury Homestays in Dehradun",
@@ -47,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`flex flex-col min-h-screen ${jost.className}`}>
+      <body className={`flex flex-col min-h-screen`}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
