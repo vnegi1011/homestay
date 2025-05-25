@@ -1,4 +1,5 @@
 import Hero from "../../components/Hero";
+import GalleryList from "./components/GalleryList";
 import RoomList from "./components/RoomList";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         </p>
       </section>
       <RoomList />
+      <GalleryList />
     </div>
   );
 };

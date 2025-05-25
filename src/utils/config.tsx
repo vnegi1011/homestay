@@ -56,11 +56,25 @@ export const heroContent = [
     ctaLink: "./apartments/apartments",
     imgSrc: "/outer-view.jpg",
   },
-    {
+  {
     title: "Welcome to Ramante Homes",
     subtitle: "Luxury homestays in the heart of Dehradun",
     ctaText: "Book Now",
     ctaLink: "./apartments/apartments",
     imgSrc: "/outer-view.jpg",
   },
+];
+export const galleryImgs = [
+  "/gallery/exterior1.jpg",
+  "/gallery/exterior2.jpg",
+  "/gallery/interior1.jpg",
+  "/gallery/interior2.jpg",
+  "/gallery/exterior1.jpg",
+  "/gallery/exterior2.jpg",
+  "/gallery/interior1.jpg",
+  "/gallery/interior2.jpg",
+  "/gallery/exterior1.jpg",
+  "/gallery/exterior2.jpg",
+  "/gallery/interior1.jpg",
+  "/gallery/interior2.jpg",
 ];
