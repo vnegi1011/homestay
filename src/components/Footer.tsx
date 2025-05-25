@@ -4,7 +4,12 @@ const Footer: React.FC = () => {
       <p>&copy; 2025 Ramante Homes. All rights reserved.</p>
       <p>Contact: +91 90846 66482 | Email: info@ramantehomes.com</p>
       <p>
-        <a href="https://www.facebook.com/ramantehomes" className="hover:text-accent">Facebook</a>
+        <a
+          href="https://www.facebook.com/ramantehomes"
+          className="hover:text-accent"
+        >
+          Facebook
+        </a>
       </p>
     </footer>
   );
