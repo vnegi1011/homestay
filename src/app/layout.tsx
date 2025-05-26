@@ -5,30 +5,33 @@ import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Ramante Homes | Luxury Homestays in Dehradun",
-    template: "%s | Ramante Homes",
+    default: "Kedar Darshan & Umesh Homestay",
+    template: "%s | Umesh Homestay",
   },
   description:
-    "Experience luxury homestays in Dehradun at Ramante Homes. Book cozy cottages with stunning views, modern amenities, and a serene environment.",
+    "Experience luxury homestays in Rudraprayag at Umesh Homestay. Book cozy cottages with stunning views, modern amenities, and a serene environment.",
   keywords: [
     "luxury homestays",
-    "Dehradun homestays",
-    "Ramante Homes",
+    "Rudraprayag homestays",
+    "kedar darshan",
+    "kedar darshan & umesh homestay",
+    "kedar darshan and umesh homestay",
+    "umesh homestay",
     "cottage rentals",
-    "Mussoorie vacations",
+    "Garhwal vacations",
   ],
   openGraph: {
-    title: "Ramante Homes | Luxury Home-stays in Dehradun",
+    title: "Umesh Homestay | Luxury Home-stays in Rudraprayag",
     description:
-      "Discover luxury and serenity at Ramante Homes in Dehradun. Book your stay today!",
+      "Discover luxury and serenity at Umesh Homestay in Rudraprayag. Book your stay today!",
     url: "https://homestay-zeta.vercel.app/",
-    siteName: "Ramante-Homes",
+    siteName: "Kedar Darshan & Umesh Homestay",
     images: [
       {
         url: "/logo.jpg",
         width: 1200,
         height: 630,
-        alt: "Ramante Homes Luxury Homestays",
+        alt: "Umesh Homestay",
       },
     ],
     locale: "en_US",

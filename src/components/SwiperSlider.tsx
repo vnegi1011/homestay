@@ -1,9 +1,8 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { heroContent } from "@/utils/config";
 import Image from "next/image";
@@ -12,7 +11,7 @@ import Link from "next/link";
 export default function SwiperSlider() {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
+      modules={[Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
       navigation
@@ -27,7 +26,7 @@ export default function SwiperSlider() {
             <div className="h-full">
               <Image
                 src={imgSrc}
-                alt="Ramante Homes Hero"
+                alt="Umesh Homestay Hero"
                 fill
                 className="object-cover brightness-50"
                 placeholder="blur"

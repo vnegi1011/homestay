@@ -11,7 +11,7 @@ const Home = () => {
           Discover Serenity
         </h2>
         <p className="text-sm sm:text-lg text-center max-w-xl mx-auto">
-          Nestled in the foothills of Mussoorie, Ramante Homes offers a perfect
+          Nestled in the foothills of Himalayas, Kedar Darshan & Umesh Homestay offers a perfect
           blend of luxury, calmness, and nature. Enjoy breathtaking views, local
           cuisine, and premium amenities.
         </p>

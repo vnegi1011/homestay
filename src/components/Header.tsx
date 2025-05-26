@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <header className="bg-primary text-white p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl sm:text-2xl font-bold">
-          <Link href="/">Ramante Homes</Link>
+          <Link href="/">Kedar Darshan & Umesh Homestay</Link>
         </h1>
         {/* Hamburger Button */}
         <button
@@ -46,14 +46,6 @@ const Header: React.FC = () => {
               className="text-white hover:text-accent transition-colors"
             >
               Home
-            </Link>
-          </li>
-          <li className="py-2 md:py-0">
-            <Link
-              href="/gallery"
-              className="text-white hover:text-accent transition-colors"
-            >
-              Gallery
             </Link>
           </li>
           <li className="py-2 md:py-0">

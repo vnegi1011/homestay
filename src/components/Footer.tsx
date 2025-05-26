@@ -1,8 +1,8 @@
 const Footer: React.FC = () => {
   return (
     <footer className="bg-primary text-white p-4 text-center">
-      <p>&copy; 2025 Ramante Homes. All rights reserved.</p>
-      <p>Contact: +91 90846 66482 | Email: info@ramantehomes.com</p>
+      <p>&copy; 2025 Kedar Darshan & Umesh Homestay. All rights reserved.</p>
+      <p>Contact: +91 96391 96330 | Email: info@gmail.com</p>
       <p>
         <a
           href="https://www.facebook.com/ramantehomes"
