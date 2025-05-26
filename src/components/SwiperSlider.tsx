@@ -14,7 +14,6 @@ export default function SwiperSlider() {
       modules={[Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
-      navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000 }}
       className="h-full"
@@ -30,10 +29,10 @@ export default function SwiperSlider() {
                 fill
                 className="object-cover brightness-50"
                 placeholder="blur"
-                blurDataURL="/hero.jpg"
+                blurDataURL="/outer-view1.jpg"
                 priority
               />
-              <div className="z-10 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center justify-center text-white px-4 text-center">
+              <div className="z-10 absolute top-1/2 left-1/3 -translate-y-1/2 -translate-x-1/3 flex flex-col items-center justify-center text-white px-4 text-left">
                 <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-4 drop-shadow-lg">
                   {title}
                 </h1>
