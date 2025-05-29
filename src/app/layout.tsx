@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     default: "Kedar Darshan & Umesh Homestay",
     template: "%s | Umesh Homestay",
   },
+  // icons: {
+  //   icon: "/favicon.ico",
+  // },
   description:
     "Experience luxury homestays in Rudraprayag at Umesh Homestay. Book cozy cottages with stunning views, modern amenities, and a serene environment.",
   keywords: [
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
     title: "Umesh Homestay | Luxury Home-stays in Rudraprayag",
     description:
       "Discover luxury and serenity at Umesh Homestay in Rudraprayag. Book your stay today!",
-    url: "https://homestay-zeta.vercel.app/",
+    url: "https://kedardarshan.vercel.app/",
     siteName: "Kedar Darshan & Umesh Homestay",
     images: [
       {

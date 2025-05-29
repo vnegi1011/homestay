@@ -16,6 +16,7 @@ export default function SwiperSlider() {
       slidesPerView={1}
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000 }}
+      loop={true} // 👈 Add this
       className="h-full"
     >
       {heroContent.map((content, idx) => {

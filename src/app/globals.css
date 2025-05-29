@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-pagination-bullet {
+  background: white;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: orange; /* or use your Tailwind `bg-accent` class if you want */
+}
