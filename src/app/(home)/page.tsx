@@ -1,6 +1,7 @@
 import Hero from "../../components/Hero";
 import GalleryList from "./components/GalleryList";
 import RoomList from "./components/RoomList";
+import WhatsappButton from "../../components/WhatsappButton"; // Adjust path if needed
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
       </section>
       <RoomList />
       <GalleryList />
+      
+      {/* Floating WhatsApp Button */}
+      <WhatsappButton />
     </div>
   );
 };
