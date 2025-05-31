@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://homestay-zeta.vercel.app/
+Host: https://kedardarshan.vercel.app
 
 # Sitemaps
-Sitemap: https://homestay-zeta.vercel.app/sitemap.xml
+Sitemap: https://kedardarshan.vercel.app/sitemap.xml

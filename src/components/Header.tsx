@@ -50,7 +50,7 @@ const Header: React.FC = () => {
           </li>
           <li className="py-2 md:py-0">
             <Link
-              href="/contact"
+              href="/contact-us"
               className="text-white hover:text-accent transition-colors"
             >
               Contact

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
     <footer className="bg-primary text-white p-4 text-center flex flex-col gap-4 items-center">
 
       <div>
-        <p>Address: Near Thumby Aviation Helipad Jammu Kedarnath Road, Phata, Rudraprayag</p>
+        <p></p>
       </div>
       {/* Map container */}
       <div className="w-full max-w-md h-60 relative rounded overflow-hidden shadow-md bg-gray-300">
@@ -43,15 +43,6 @@ const Footer: React.FC = () => {
 
       <div>
         <p>&copy; 2025 Kedar Darshan & Umesh Homestay. All rights reserved.</p>
-        <p>Contact: +91 96391 96330 | Email: info@gmail.com</p>
-        <p>
-          <a
-            href="https://www.facebook.com/csbsrinagar"
-            className="hover:text-accent underline"
-          >
-            Facebook
-          </a>
-        </p>
       </div>
 
     </footer>
