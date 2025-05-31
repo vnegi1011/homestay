@@ -3,8 +3,6 @@
 import React, { useState } from 'react';
 
 const Footer: React.FC = () => {
-  const lat = 30.578278;
-  const lng = 79.0325524;
   const [mapLoaded, setMapLoaded] = useState(false);
 
   return (
@@ -20,19 +18,16 @@ const Footer: React.FC = () => {
             Loading map...
           </div>
         )}
-        <iframe
-          title="Google Map"
-          width="100%"
-          height="100%"
-          loading="lazy"
-          className={`${mapLoaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500`}
-          onLoad={() => setMapLoaded(true)}
-          src={`https://www.google.com/maps?q=${lat},${lng}&z=15&output=embed`}
-        />
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.970562861111!2d79.0324969!3d30.578376400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390837c811997023%3A0xbc159c6d9b23aa44!2sKedar%20darshan%20%26%20Umesh%20home%20stay!5e0!3m2!1sen!2sin!4v1748660850070!5m2!1sen!2sin" 
+        width="600" 
+        height="450" 
+        onLoad={() => setMapLoaded(true)}
+        loading="lazy" />
       </div>
 
       <a
-        href={`https://maps.google.com/?q=${lat},${lng}`}
+        href={`https://maps.app.goo.gl/ZixQg9KkQDuxWnbg8`}
         target="_blank"
         rel="noopener noreferrer"
       >
