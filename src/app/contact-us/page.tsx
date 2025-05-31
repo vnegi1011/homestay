@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "Garhwal vacations",
   ],
   openGraph: {
-    title: "Umesh Homestay | Luxury Home-stays in Rudraprayag",
+    title: "Contact Us | Umesh Homestay",
     description:
       "Contact us - +91 96391 96330",
-    url: "https://kedardarshan.vercel.app/contact-us",
-    siteName: "Kedar Darshan & Umesh Homestay",
+    url: "https://kedardarshan.vercel.app/contact-us/",
+    siteName: "Umesh Homestay",
     locale: "en_US",
     type: "website",
   },
