@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "umesh homestay",
     "cottage rentals",
     "Garhwal vacations",
+    "Umesh Homestay Kedarnath Contact Number",
+    "Umesh Homestay Contact Number",
+    "Umesh Homestay Contact",
+    "Umesh Homestay Phata Contact Number",
   ],
   openGraph: {
     title: "Contact Us | Umesh Homestay",
