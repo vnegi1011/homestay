@@ -45,7 +45,7 @@ export default function ContactUs() {
             <h2 className="text-xl font-semibold text-gray-700">Email</h2>
             <p className="text-gray-600">
               <a href="mailto:info@kedardarshan.com" className="text-blue-500 hover:underline">
-                info@homestayzeta.com
+                info@kedardarshan.com
               </a>
             </p>
           </div>
